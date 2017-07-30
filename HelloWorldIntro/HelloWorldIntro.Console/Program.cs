@@ -13,7 +13,12 @@ namespace HelloWorldIntro.Console
         {
             var stopwatch = new Stopwatch();
 
+            stopwatch.Start();
+
             System.Console.WriteLine("Hello World");
+
+            //aislinn code here to tell how long it took
+            
             System.Console.ReadKey();
         }
     }
