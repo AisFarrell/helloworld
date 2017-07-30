@@ -38,7 +38,7 @@ namespace HelloWorldIntro.Console
             secondNumber = int.Parse(secondNumberString);
 
 
-            result = firstNumber + secondNumber;
+            result = firstNumber * secondNumber;
 
             System.Console.WriteLine("the answer is " + result.ToString());
 
